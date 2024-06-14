@@ -1,0 +1,77 @@
+.loginContainer {
+  height: 100vh;
+  background-color: #183b56;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginCardContainer {
+  background-color: #e0eefe;
+  height: 80vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.ebank-login-image {
+  height: 400px;
+  width: 450px;
+}
+
+.formContainer {
+  background-color: #ffffff;
+  height: 80vh;
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.loginHeading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #152850;
+}
+.styling {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #183b56;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.input-style {
+  height: 30px;
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #c3cad9;
+  outline: none;
+  font-family: 'Roboto';
+}
+.button-container {
+  width: 80%;
+}
+.login-button {
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1565d8;
+  color: #ffffff;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.error-msg {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ff0b37;
+  text-align: center;
+  width: 80%;
+}
