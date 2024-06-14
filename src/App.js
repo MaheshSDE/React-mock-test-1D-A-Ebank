@@ -11,7 +11,7 @@ import './App.css'
 const App = () => (
   <div className="appContainer">
     <Switch>
-      <ProtectedRoute exact path="/ebank/login" component={Login} />
+      <Route exact path="/ebank/login" component={Login} />
       <ProtectedRoute exact path="/" component={Home} />
       <Route exact path="/not-found" component={NotFound} />
       <Redirect to="/not-found" />

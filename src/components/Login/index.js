@@ -34,7 +34,7 @@ class Login extends Component {
 
   onSubmitLogin = async event => {
     event.preventDefault()
-    const {userId, pin} = this.setState
+    const {userId, pin} = this.state
     const userDetails = {user_id: userId, pin}
     const url = 'https://apis.ccbp.in/ebank/login'
     const options = {
@@ -88,7 +88,7 @@ class Login extends Component {
               PIN
             </label>
             <input
-              type="text"
+              type="password"
               id="pin-id"
               value={pin}
               placeholder="Enter PIN"
